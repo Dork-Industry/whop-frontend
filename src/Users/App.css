@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ccc;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #211348;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0a080e;
+  }
+
+
+  #sidebar{
+    background-color: #4b5541 !important;
+  }
+
+h1, h2{
+    color: #4a494d;
+    font-family: 'Gabarito', cursive;
+}
+ 
+
+.nopad{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    background: #edebeb;
+}  
+
+.topbox{
+    min-height:50px; background-color: #ccc;
+}
+.footbox{
+    min-height:30px; padding-left: 20px;;
+}
+
+.codebox{
+    min-height: 620px; padding-bottom: 50px; 
+}
+.card-body{
+    background-color: #fff; border-radius: 5px; 
+    box-shadow: 2px 3px 6px #ccc;
+}
+.cbtop{
+    padding-top: 6px; padding-bottom: 4px;
+    margin-top: 25px; margin-bottom: 15px; display: block; overflow: hidden;
+}
+.cbtop h2{
+    font-size: 22px; float: left;
+}
+
+.cbtop .btn{
+    float: right;
+}
+
+.tbl_head, .darkbox{
+    background-color: #443d56 !important;
+    color: #fff;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 0.15rem 0.5rem;
+    font-size: 0.675rem;
+    line-height: 1.1;
+    border-radius: 0.1rem;
+}
+
+table .dropdown-toggle::after{
+    display: none !important;
+}
+
+.mybtn{
+    padding: 0.15rem 0.5rem;
+    font-size: 0.675rem;
+    line-height: 1.1;
+    border-radius: 0.1rem;
+    margin-right: 8px;
+}
+
+.midbtn{
+    padding: 0.45rem 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.0;
+    border-radius: 0.1rem;
+    margin-right: 8px; border-radius: 3px;
+}
+
+
+.form-control{
+    border: 1px solid #c3c3c3;
+}
+form button{
+    margin-top: 20px;
+}
+
